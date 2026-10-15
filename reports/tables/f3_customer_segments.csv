@@ -1,0 +1,7 @@
+segment,customers,revenue,avg_clv,avg_orders,avg_recency_days,customer_share_pct,revenue_share_pct
+Big-ticket one-time,16375,6378495.93,389.53,1.0,305.23,17.24,40.54
+Recent one-time,34959,3131438.79,89.57,1.0,118.18,36.8,19.9
+Lapsed one-time,35212,3111505.66,88.36,1.0,371.08,37.07,19.77
+New high-value,5556,2223828.15,400.26,1.0,64.48,5.85,14.13
+Loyal repeat,1584,497702.96,314.21,2.14,118.3,1.67,3.16
+At-risk repeat,1304,392555.54,301.04,2.08,359.88,1.37,2.49

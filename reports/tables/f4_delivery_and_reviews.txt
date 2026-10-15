@@ -1,0 +1,16 @@
+  delivery  reviews  avg_score  negative_pct
+0     Late     6409       2.27          62.4
+1  On time    89944       4.29           9.3
+          delivery_vs_promise  reviews  avg_score
+0            1) 7+ days early    76175       4.31
+1  2) 0-6 days early / on day    13769       4.16
+2            3) 1-7 days late     3612       2.71
+3             4) 8+ days late     2797       1.70
+  state     region  ...  avg_estimated_days  late_pct
+0    RR      North  ...                46.0      12.2
+1    AP      North  ...                46.2       3.0
+2    AM      North  ...                45.3       2.8
+3    AL  Northeast  ...                32.6      21.4
+4    PA      North  ...                37.2      11.2
+
+[5 rows x 6 columns]

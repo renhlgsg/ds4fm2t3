@@ -1,0 +1,12 @@
+  payment_type  payments        value  avg_installments  value_share_pct
+0  Credit Card     76795  12542084.19              3.51            78.34
+1       Boleto     19784   2869361.27              1.00            17.92
+2      Voucher      5775    379436.87              1.00             2.37
+3   Debit Card      1529    217989.79              1.00             1.36
+4  Not Defined         3         0.00              1.00             0.00
+         region     revenue  orders  share_pct
+0  Central-West   861825.09    5728        6.4
+1         North   333814.28    1834        2.5
+2     Northeast  1538209.28    9305       11.4
+3         South  1938021.12   13996       14.4
+4     Southeast  8822530.97   67336       65.4

@@ -1,0 +1,3 @@
+Peak month 2017-11: revenue 1,003,862 from 7,421 orders
+Jan-Aug revenue 2017 3,080,851 -> 2018 7,341,037 (+138.3%)
+Partial/edge months excluded from trend: ['2016-09', '2016-12', '2018-09']

@@ -1,0 +1,10 @@
+               segment  customers  ...  customer_share_pct  revenue_share_pct
+0  Big-ticket one-time      16375  ...               17.24              40.54
+1      Recent one-time      34959  ...               36.80              19.90
+2      Lapsed one-time      35212  ...               37.07              19.77
+3       New high-value       5556  ...                5.85              14.13
+4         Loyal repeat       1584  ...                1.67               3.16
+5       At-risk repeat       1304  ...                1.37               2.49
+
+[6 rows x 8 columns]
+Repeat-purchase rate: 3.04%

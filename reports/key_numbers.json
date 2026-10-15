@@ -1,0 +1,106 @@
+{
+  "f1": {
+    "first_full_month": "2016-10",
+    "last_full_month": "2018-08",
+    "peak_month": "2017-11",
+    "peak_revenue": 1003862.14,
+    "peak_orders": 7421,
+    "ytd_2017_jan_aug": 3080850.81,
+    "ytd_2018_jan_aug": 7341037.41,
+    "ytd_yoy_pct": 138.3,
+    "partial_months": [
+      "2016-09",
+      "2016-12",
+      "2018-09"
+    ],
+    "aov_peak": 135.27
+  },
+  "f2": {
+    "top_category": "health_beauty",
+    "top_category_share": 9.31,
+    "top5_category_share": 39.83,
+    "n_categories": 74,
+    "top_product_id": "bb50f2e236e5eea0100680137654686c",
+    "top_product_revenue": 63885.0,
+    "top_product_by_units": "aca2eb7d00ea1a7b8ebd4e68314663af",
+    "top_product_units": 527,
+    "top10pct_sellers_revenue_share": 67.43,
+    "n_sellers_with_sales": 3053
+  },
+  "f3": {
+    "customers_analysed": 94990,
+    "repeat_rate_pct": 3.04,
+    "avg_clv": 165.65,
+    "avg_clv_repeat": 308.26,
+    "avg_clv_one_time": 161.18,
+    "top_segment": "Big-ticket one-time",
+    "top_segment_customer_pct": 17.24,
+    "top_segment_revenue_pct": 40.54,
+    "repeat_revenue_pct": 5.65,
+    "segments": [
+      {
+        "segment": "Big-ticket one-time",
+        "customers": 16375,
+        "customer_share_pct": 17.24,
+        "revenue_share_pct": 40.54,
+        "avg_clv": 389.53
+      },
+      {
+        "segment": "Recent one-time",
+        "customers": 34959,
+        "customer_share_pct": 36.8,
+        "revenue_share_pct": 19.9,
+        "avg_clv": 89.57
+      },
+      {
+        "segment": "Lapsed one-time",
+        "customers": 35212,
+        "customer_share_pct": 37.07,
+        "revenue_share_pct": 19.77,
+        "avg_clv": 88.36
+      },
+      {
+        "segment": "New high-value",
+        "customers": 5556,
+        "customer_share_pct": 5.85,
+        "revenue_share_pct": 14.13,
+        "avg_clv": 400.26
+      },
+      {
+        "segment": "Loyal repeat",
+        "customers": 1584,
+        "customer_share_pct": 1.67,
+        "revenue_share_pct": 3.16,
+        "avg_clv": 314.21
+      },
+      {
+        "segment": "At-risk repeat",
+        "customers": 1304,
+        "customer_share_pct": 1.37,
+        "revenue_share_pct": 2.49,
+        "avg_clv": 301.04
+      }
+    ]
+  },
+  "f4": {
+    "avg_score_on_time": 4.29,
+    "avg_score_late": 2.27,
+    "negative_pct_on_time": 9.3,
+    "negative_pct_late": 62.4,
+    "late_share_of_reviews_pct": 6.7,
+    "slowest_big_state": "AL",
+    "slowest_big_state_days": 24.5,
+    "fastest_state": "SP",
+    "fastest_state_days": 8.8,
+    "score_8plus_days_late": 1.7
+  },
+  "f5": {
+    "credit_card_value_pct": 78.34,
+    "credit_card_avg_installments": 3.51,
+    "boleto_value_pct": 17.92,
+    "top_state": "SP",
+    "top_state_pct": 38.27,
+    "top3_states_pct": 63.4,
+    "southeast_pct": 65.4
+  }
+}

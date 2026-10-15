@@ -1,0 +1,13 @@
+duckdb>=1.1
+pandas>=2.2
+plotly>=5.20
+matplotlib>=3.8
+streamlit>=1.50
+dagster>=1.8
+dagster-webserver>=1.8
+jupyter>=1.0
+nbformat>=5.10
+nbconvert>=7.16
+ipykernel>=6.29
+pytest>=8.0
+python-pptx>=1.0
