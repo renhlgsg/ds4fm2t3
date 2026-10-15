@@ -29,6 +29,20 @@ Everything is run from the project root folder `ds4fm2t3`. Commands are PowerShe
 ## Part C - Place the source files
 Copy the 9 CSV files into `data/raw/`. To keep them elsewhere: `$env:DS4FM2T3_RAW_DIR = "D:\olist\csv"` (same terminal session) or set it permanently with `setx DS4FM2T3_RAW_DIR "D:\olist\csv"` and reopen the terminal.
 
+
+## Check date/time column of anyspreadsheet, if the data is in format of something like : 16/5/2017 13:10
+then change line 35 of config/setting.py as below:
+TS_FMT = "%d-%m-%Y %H:%M:%S"
+
+## Check date/time column of anyspreadsheet, if the data is in format of something like : 2017/5/16 13:10
+then change line 35 of config/setting.py as below:
+TS_FMT = "%Y-%m-%d %H:%M:%S"
+
+## if the data is in format of others, please change line 35 of config/setting.py accordingly. 
+
+
+
+
 ## Part D - Build the warehouse step by step
 Run each command; expected output is described.
 | # | Command | What it does | Expected result |
@@ -52,6 +66,7 @@ Open `sql` in VS Code with the DuckDB extension, or in the terminal: `python -c 
 1. In WSL terminal: conda activate m2t3
 2. cd $HOME/ds4fm2t3
 3. mkdir -p .dagster_home
+
    export DAGSTER_HOME=$PWD/.dagster_home
 4. dagster dev -m orchestration.definitions
 

@@ -52,6 +52,7 @@ Open `sql` in VS Code with the DuckDB extension, or in the terminal: `python -c 
 1. In WSL terminal: conda activate m2t3
 2. cd $HOME/ds4fm2t3
 3. mkdir -p .dagster_home
+
    export DAGSTER_HOME=$PWD/.dagster_home
 4. dagster dev -m orchestration.definitions
 
